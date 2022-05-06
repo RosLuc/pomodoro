@@ -1,0 +1,43 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-blue {
+  background-color: #0161b9;
+  color: white;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-card button {
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+
+  background-color: #fff;
+  color: #0161b9;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.main-card button:hover {
+  background-color: #EFEFEF;
+}
+
+.main-card button:active {
+  background-color: #FFF;
+}
